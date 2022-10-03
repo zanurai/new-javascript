@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(5px);
+}
+
+/*body {
+    background: linear-gradient(rgb(209, 220, 221), rgb(245, 227, 227), pink, rgb(209, 220, 221), rgb(252, 246, 246));
+}*/
+
+.div-logo {}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+}
+
+.div-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo h1 {
+    padding-top: 40px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(156, 20, 156), rgb(82, 148, 82));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+nav {
+    padding-left: 20px;
+}
+
+#nav-list {
+    list-style: none;
+}
+
+#nav-list ul a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+#nav-list ul a:hover {
+    color: blue;
+}
+
+#nav-list ul li {
+    display: inline-block;
+    padding-top: 60px;
+}
+
+.div-logo input {
+    height: 35px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    cursor: pointer;
+    background: rgb(72, 72, 231);
+    border: none;
+}
+
+.div-logo i {
+    position: relative;
+    top: 60px;
+    right: 100px;
+    color: white;
+}
+
+input {
+    padding-left: 25px;
+
+}
+
+#search {
+    width: 150px;
+    margin-right: 20px;
+}
+
+#sign {
+    margin-right: 20px;
+}
+
+.banner {
+    margin-top: 40px;
+}
+
+.nav-banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-img {
+
+
+    background-color: rgb(218, 231, 241);
+    width: 470px;
+}
+
+.banner-img img {
+    width: 250px;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+.banner-para {
+    padding-top: 150px;
+    line-height: 30px;
+    padding-left: 20px;
+    background-color: rgb(230, 226, 220);
+    width: 609px;
+}
+
+.banner-para h1 {
+    height: 50px;
+    padding-top: 25px;
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+    background: -webkit-linear-gradient(yellow, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-para p {
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 200px;
+    color: rgb(86, 88, 88);
+}
+
+.banner-para button {
+    font-size: 17px;
+    margin-top: 60px;
+    width: 100px;
+    background-color: rgb(84, 114, 248);
+    height: 25px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+
+}
+
+.banner-para a {
+    text-decoration: none;
+}
+
+.banner-para a:hover {
+    color: white;
+}
+
+
+
+.banner-2-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.bicycle {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bicycle i {
+    border: 1px solid black;
+    width: 50px;
+    height: 40px;
+    padding-top: 9px;
+    padding-left: 9px;
+    padding-right: 5px;
+    border-radius: 100px;
+    background: black;
+    color: white;
+    margin-left: 50px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons i {
+    border: 1px solid black;
+    width: 50px;
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 9px;
+    padding-right: 5px;
+    border-radius: 100px;
+    background: black;
+    color: white;
+    margin-left: 60px;
+}
+
+
+.return {
+    display: flex;
+    justify-content: space-between;
+}
+
+.return i {
+    border: 1px solid black;
+    width: 55px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 100px;
+    background: black;
+    color: white;
+    margin-left: 60px;
+}
+
+
+.para {
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+.para h4 {
+    margin-top: 5px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Great Vibes', cursive;
+    background: -webkit-linear-gradient(red, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.para p {
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.images {
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.images img {
+    width: 200px;
+    margin-right: 150px;
+}
+
+.img-1 {
+    border: 1px solid rgb(176, 214, 230);
+    width: 300px;
+    margin-left: 60px;
+    display: flex;
+    background: rgb(176, 214, 230);
+    border-radius: 10px;
+}
+
+.widding {
+    position: relative;
+    right: 150px;
+    margin-top: 30px;
+}
+
+.widding button {
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(152, 152, 248);
+}
+
+.widding a {
+    text-decoration: none;
+}
+
+.widding a:hover {
+    color: white;
+}
+
+.img-2 {
+    border: 1px solid rgb(236, 227, 184);
+    width: 300px;
+    margin-left: 60px;
+    display: flex;
+    background: rgb(236, 227, 184);
+    border-radius: 10px;
+}
+
+.dress {
+    position: relative;
+    right: 150px;
+    margin-top: 30px;
+}
+
+.dress button {
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(152, 152, 248);
+}
+
+.dress a {
+    text-decoration: none;
+}
+
+.dress a:hover {
+    color: white;
+}
+
+.img-3 {
+    border: 1px solid rgb(176, 221, 176);
+    width: 300px;
+    margin-left: 60px;
+    display: flex;
+    background: rgb(176, 221, 176);
+    border-radius: 10px;
+}
+
+.bags {
+    position: relative;
+    right: 170px;
+    margin-top: 30px;
+}
+
+.bags button {
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(152, 152, 248);
+    border-radius: 10px;
+}
+
+.bags a {
+    text-decoration: none;
+}
+
+.bags a:hover {
+    color: white;
+}
+
+.banner-3-h1 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.banner-3-h1 h1 {
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    background: -webkit-linear-gradient(yellow, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-3-h1 p {
+    font-size: 25px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.box {
+    display: flex;
+    height: 400px;
+    margin-left: 200px;
+    justify-content: center;
+    border-radius: 20px;
+    padding-right: 200px;
+    margin-top: 70px;
+}
+
+.box h6 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.box p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.center ul li {
+    list-style: none;
+    font-size: 17px;
+}
+
+.center ul {
+    margin-top: 20px;
+}
+
+.center h3 {
+    font-size: 20px;
+}
+
+
+#footer-icon .fa-facebook {
+    background: rgb(118, 118, 248);
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
+#footer-icon .fa-instagram {
+    background: linear-gradient(rgb(107, 43, 226), purple, rgb(241, 148, 226), red, rgb(252, 104, 104), yellow);
+    font-size: 25px;
+    color: white;
+    padding-bottom: 3px;
+    padding-right: 3px;
+
+}
+
+
+#footer-icon i {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 25px;
+
+}
+
+#footer-icon h4 {
+    font-size: 25px;
+}
+
+#footer-icon img {
+    margin-top: 15px;
+    border: 1px solid black;
+    width: 17px;
+    height: 25px;
+    padding-top: 5px;
+    padding-right: 6px;
+    padding-left: 9px;
+    padding-bottom: 3px;
+    border-radius: 25px;
+    position: relative;
+    top: 9px
+}
+
+
+
+.inform h3 {
+
+    font-size: 20px;
+}
+
+
+.inform p {
+    margin-top: 15px;
+    font-size: 17px;
+}
